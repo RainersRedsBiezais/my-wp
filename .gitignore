@@ -17,6 +17,8 @@
 wp-content/uploads/
 wp-content/upgrade/
 wp-content/upgrade-temp-backup/
+wp-content/uploads/2025/09
+
 
 # WordPress Cache and Temporary Files
 wp-content/cache/
