@@ -1,0 +1,152 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Travel Blog",
+  "description": "A modern block theme for travel bloggers and adventure seekers",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#1e40af",
+          "name": "Ocean Blue"
+        },
+        {
+          "slug": "secondary",
+          "color": "#059669",
+          "name": "Forest Green"
+        },
+        {
+          "slug": "accent",
+          "color": "#dc2626",
+          "name": "Sunset Red"
+        },
+        {
+          "slug": "neutral-light",
+          "color": "#f8fafc",
+          "name": "Light Gray"
+        },
+        {
+          "slug": "neutral-dark",
+          "color": "#1e293b",
+          "name": "Dark Gray"
+        },
+        {
+          "slug": "warm",
+          "color": "#f59e0b",
+          "name": "Golden Yellow"
+        },
+        {
+          "slug": "earth",
+          "color": "#92400e",
+          "name": "Earth Brown"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "slug": "system",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+          "name": "System Font"
+        },
+        {
+          "slug": "serif",
+          "fontFamily": "Georgia, 'Times New Roman', Times, serif",
+          "name": "Serif"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "14px", "name": "Small" },
+        { "slug": "medium", "size": "18px", "name": "Medium" },
+        { "slug": "large", "size": "24px", "name": "Large" },
+        { "slug": "x-large", "size": "32px", "name": "Extra Large" },
+        { "slug": "xx-large", "size": "48px", "name": "XX Large" }
+      ]
+    },
+    "spacing": {
+      "spacingScale": {
+        "steps": 0
+      },
+      "spacingSizes": [
+        { "slug": "20", "size": "20px", "name": "20" },
+        { "slug": "30", "size": "30px", "name": "30" },
+        { "slug": "40", "size": "40px", "name": "40" },
+        { "slug": "50", "size": "50px", "name": "50" },
+        { "slug": "60", "size": "60px", "name": "60" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--neutral-light)",
+      "text": "var(--wp--preset--color--neutral-dark)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--system)",
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "var(--wp--preset--color--primary)",
+          "text": "var(--wp--preset--color--neutral-light)"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontWeight": "600"
+        },
+        "border": {
+          "radius": "8px"
+        },
+        "spacing": {
+          "padding": {
+            "top": "12px",
+            "bottom": "12px",
+            "left": "24px",
+            "right": "24px"
+          }
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--serif)",
+          "fontWeight": "700"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--xx-large)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--x-large)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--large)"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    },
+    {
+      "name": "sidebar",
+      "title": "Sidebar",
+      "area": "uncategorized"
+    }
+  ]
+}
